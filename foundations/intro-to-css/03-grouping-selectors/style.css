@@ -11,3 +11,7 @@
     font-size: 28px;
     font-family: "Helvetica", "Times New Roman", sans-serif;
 }
+
+/* rather than using another class for universal font,
+a grouping selector could've been used like .black-btn, .yellow-btn
+this would remove the need for the .universal-font class */
