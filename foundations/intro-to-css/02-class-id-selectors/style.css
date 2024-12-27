@@ -1,0 +1,22 @@
+.odd-element {
+    background-color: pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#second-element {
+    color: blue;
+    font-size: 36px;
+}
+
+.third-element {
+    font-size: 24px;
+}
+
+#fourth-element {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* font-size: 24px; is used twice here. to practice DRY code, we could've
+created a class like adjust-font-size that only contains that code */
